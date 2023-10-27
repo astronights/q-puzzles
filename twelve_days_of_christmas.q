@@ -18,4 +18,4 @@ days: " " vs "first second third fourth fifth sixth",
 day:{("On the ",(days x)," day of Christmas";"My true love gave to me"), 
   reverse(enlist""),@[;0;{y,1_x};$[x;"And a";"A"]](x+1)#gifts}
 
-out:1 "\n"sv raze day each til 12;
+out:"\n"sv raze day each til 12;
